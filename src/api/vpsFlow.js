@@ -39,16 +39,43 @@ app.listen(3000);
 
 mongoose.connect('mongodb://localhost/vpsFlow_db');
 
-var Schema = mongoose.Schema,
-		ObjectId = Schema.ObjectId;
+var Schema = mongoose.Schema;
+var Stat = mongoose.Schema;
+var ObjectId = Schema.ObjectId;
 
+var serverStat = new Schema({
+    timestamp: {type: Number},
+    type: {type: String},
+    value: {type: String}
+});
 
 var vpsFlowStat = new Schema({
-	stats : {type: String}
-	});
-
+    stats: [serverStat]
+});
 
 var stats = mongoose.model('vpsFlowStat', vpsFlowStat);
+
+// Example: Create new document and save
+//var instance = new stats();
+//instance.stats = 'foo';
+//instance.save(function(err) {
+//    console.log('Huston, we have a problem!');
+//});
+
+// Example: Create embedded documents
+//var instance = new stats();
+//instance.stats.push({
+//    'timestamp': 1,
+//    'type': 'memory-free',
+//    'value': '1462325'
+//});
+//instance.save(function(err) {
+//    if (!err) {
+//        console.log('woot!');
+//    } else {
+//        console.log(':(');
+//    }
+//});
 
 var max_id = 0;
 
