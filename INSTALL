@@ -1,0 +1,9 @@
+API SERVER
+1) Install NodeJS
+2) Install npm
+3) Install Mongoose ODM
+
+MONITORED SERVERS
+0) Requires Ubuntu (for now)
+1) Install Apache2
+2) Go into dist/collectd and run setup.py *as root* 
