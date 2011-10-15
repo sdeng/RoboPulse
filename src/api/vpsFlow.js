@@ -43,17 +43,18 @@ var Schema = mongoose.Schema;
 var Stat = mongoose.Schema;
 var ObjectId = Schema.ObjectId;
 
-var serverStat = new Schema({
+var Stat = new Schema({
     timestamp: {type: Number},
     type: {type: String},
     value: {type: String}
 });
 
-var vpsFlowStat = new Schema({
-    stats: [serverStat]
+var Server = new Schema({
+    name: {type: String},
+    stats: [Stat]
 });
 
-var stats = mongoose.model('vpsFlowStat', vpsFlowStat);
+var ServerModel = mongoose.model('Server', Server);
 
 // Example: Create new document and save
 //var instance = new stats();
