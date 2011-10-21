@@ -1,0 +1,93 @@
+{
+	"server" : {
+		"name": "servername",
+		"stats": [
+			{ 		
+				"timestamp": 2340243543,
+				"type" : "memory free",
+				"value" : 4500000000
+			},
+			{ 		
+				"timestamp": 2340243543,
+				"type" : "memory used",
+				"value" : 2200000000
+			},
+			{ 		
+				"timestamp": 2340243543,
+				"type" : "memory buffered",
+				"value" : 2200000000
+			},
+			{ 		
+				"timestamp": 2340243543,
+				"type" : "memory cached",
+				"value" : 2600000000
+			},
+			{ 		
+				"timestamp": 2340245543,
+				"type" : "memory free",
+				"value" : 23423000000
+			},
+			{ 		
+				"timestamp": 2340245543,
+				"type" : "memory used",
+				"value" : 23423000000
+			},
+			{ 		
+				"timestamp": 2340245543,
+				"type" : "memory buffered",
+				"value" : 2342000000
+			},
+			{ 		
+				"timestamp": 2340245543,
+				"type" : "memory cached",
+				"value" : 2343000000
+			},
+			{ 		
+				"timestamp": 2340245573,
+				"type" : "memory free",
+				"value" : 23423000000
+			},
+			{ 		
+				"timestamp": 2340245573,
+				"type" : "memory used",
+				"value" : 23423000000
+			},
+			{ 		
+				"timestamp": 2340245573,
+				"type" : "memory buffered",
+				"value" : 23423000000
+			},
+			{ 		
+				"timestamp": 2340245573,
+				"type" : "memory cached",
+				"value" : 23423000000
+			},
+			{ 		
+				"timestamp": 2340248543,
+				"type" : "memory cached",
+				"value" : 2343000000
+			},
+			{ 		
+				"timestamp": 2340248573,
+				"type" : "memory free",
+				"value" : 23423000000
+			},
+			{ 		
+				"timestamp": 2340248573,
+				"type" : "memory used",
+				"value" : 23423000000
+			},
+			{ 		
+				"timestamp": 2340248573,
+				"type" : "memory buffered",
+				"value" : 23423000000
+			},
+			{ 		
+				"timestamp": 2340248573,
+				"type" : "memory cached",
+				"value" : 23423000000
+			}
+			
+		]
+	}
+}
